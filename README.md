@@ -7,7 +7,7 @@ SettingPage Wrapper
 
 使用方法: (详情请下载demo查看)
 
-	// .h文件
+	// .h文件      
 	@interface MyViewController : BaseSettingController
 	
 	//--------------------------------分割线-----------------------------------
@@ -16,6 +16,7 @@ SettingPage Wrapper
 	- (void)viewDidLoad
 	{
 		[super viewDidLoad];
+	
 	
 		SettingItem *item1 = [SettingItem itemWithTitle:@"用户名" subTitle:@"小猫" imageName:@"1.png" switchType:0 accessoryType:0 center:NO];
 		SettingItem *item2 = [SettingItem itemWithTitle:@"Wi-Fi" subTitle:@"关闭" imageName:@"2.png" switchType:0 accessoryType:1 center:NO];
